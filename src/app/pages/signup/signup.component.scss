@@ -1,0 +1,14 @@
+.selected {
+  font-weight: bold;
+  color: rgb(230, 44, 137);
+}
+
+.links {
+  margin-top: 5em;
+
+  .container {
+    a {
+      padding-left: 1rem;
+    }
+  }
+}
