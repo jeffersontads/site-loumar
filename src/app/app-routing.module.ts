@@ -11,10 +11,12 @@ const routes: Routes = [
   { path: 'contato', component: ContactComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
+  { path: 'home', component: HomeComponent },
   {
     path: '',
-    component: HomeComponent,
-},
+    redirectTo: '/home',
+    pathMatch: 'full'
+  }
 ];
 
 @NgModule({
